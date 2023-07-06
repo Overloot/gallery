@@ -8,7 +8,7 @@ public class ScrollViewTool : MonoBehaviour
 
     private void Start()
     {
-        // при листании списка проверяем какие объекты попали в видимость камеры
+        // РїСЂРё Р»РёСЃС‚Р°РЅРёРё СЃРїРёСЃРєР° Р±СѓРґРµС‚ РІС‹Р·С‹РІР°С‚СЊСЃСЏ РјРµС‚РѕРґ РїСЂРѕРІРµСЂРєРё РІРёРґРёРјРѕСЃС‚Рё РѕР±СЉРµРєС‚Р° РІ РєР°РјРµСЂРµ
         scrollRect.onValueChanged.AddListener((blanck) =>
         {
             CheckVisibility();
@@ -16,7 +16,7 @@ public class ScrollViewTool : MonoBehaviour
     }
 
     /// <summary>
-    /// проверяем все чилды go Content чтоб узнать какие объекты попали в видимость камеры
+    /// РїСЂРѕРІРµСЂРєР° РІСЃРµС… С‡РёР»РґРѕРІ ScrollView Content РЅР° РІРёРґРёРјРѕСЃС‚СЊ РІ camera
     /// </summary>
     public void CheckVisibility()
     {

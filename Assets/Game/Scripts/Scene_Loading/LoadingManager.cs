@@ -74,7 +74,7 @@ public class LoadingManager : MonoBehaviour
     }
 
     /// <summary>
-    /// добавляет 20 к максимальному прогрессу загрузки
+    /// РґРѕР±Р°РІР»СЏРµС‚ 20% Рє РїСЂРѕРіСЂРµСЃСЃСѓ Р·Р°РіСЂСѓР·РєРё
     /// </summary>
     public void NextProgress()
     {
@@ -82,13 +82,17 @@ public class LoadingManager : MonoBehaviour
         if (MaxAllowedProgress > 100) MaxAllowedProgress = 100;
     }
 
+    /// <summary>
+    /// РјРѕР¶РЅРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РїСЂРѕРіСЂРµСЃСЃ РЅР° Р»СЋР±РѕР№ РїСЂРѕС†РµРЅС‚. Р’С‹С€Рµ 100 РЅРµ РїСЂС‹РіРЅРµС‚.
+    /// </summary>
+    /// <param name="progress"></param>
     public void SetProgress(int progress)
     {
         MaxAllowedProgress = progress;
     }
 
     /// <summary>
-    /// устанавливает прогресс загрузки в 100
+    /// СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ РїСЂРѕРіСЂРµСЃСЃ Р·Р°РіСЂСѓР·РєРё РІ 100%
     /// </summary>
     public void CompleteProgress()
     {
