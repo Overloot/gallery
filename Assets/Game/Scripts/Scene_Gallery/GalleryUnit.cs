@@ -6,7 +6,7 @@ using System.Collections;
 
 public class GalleryUnit : MonoBehaviour
 {
-    [SerializeField] private int imgNum; // можно byte, но представим что имеджей больше 255
+    [SerializeField] private int imgNum; // пїЅпїЅпїЅпїЅпїЅ byte, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 255
     private bool loadImageAlreadyCalled;
     private bool imageLoaded;
     private GalleryController galleryController;
@@ -26,7 +26,7 @@ public class GalleryUnit : MonoBehaviour
     }
 
     /// <summary>
-    /// установка параметров при инстанцировании
+    /// СѓСЃС‚Р°РЅРѕРІРєР° РїР°СЂР°РјРµС‚СЂРѕРІ РїСЂРё РёРЅСЃС‚Р°РЅС†РёСЂРѕРІР°РЅРёРё
     /// </summary>
     /// <param name="imgNum"></param>
     /// <param name="galleryController"></param>
